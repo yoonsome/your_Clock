@@ -1,0 +1,56 @@
+body, .clockConcept, .timer, .stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30pt;
+}
+
+body{
+    background-color: #3c6382;
+}
+
+.clockConcept{
+    color: #1e272e;
+    font-size: 47pt;
+    margin-bottom: 20pt;
+}
+
+.timerClock, .stopwatchClock{
+    width: fit-content;
+    padding: 15px 45px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 12em;
+    background-color: #718093;
+    color:#f5f6fa;
+    font-size: 78pt;
+    font-weight: 800;
+}
+
+input{
+    background: #ecf0f1;
+    border-radius: 10px;
+    border: 0;
+    color:"red";
+    font-size: 19pt;
+    padding: 7pt;
+    margin: 5pt;
+}
+
+.hide{
+    display: none;
+}
+
+li{
+    color:#dcdde1;
+    font-size: 15pt;
+}
+
+.special{
+    background:#222f3e;
+    color:#f5f6fa;
+}

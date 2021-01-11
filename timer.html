@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your clock</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <div class = "timer">
+        <h1 class = "clockConcept">TIMER</h1>
+        <div class = "timerClock">
+            00:00
+        </div>
+        <div class="btnList">
+            <input type="button" class="timer-p30s" value="+30s"/>
+            <input type="button" class="timer-p1m" value="+1m"/>
+            <input type="button" class="timer-p3m" value="+3m"/>
+            <input type="button" class="timer-p5m" value="+5m"/>
+            <input type="button" class="timer-m30s" value="-30s"/>
+            <input type="button" class="timer-m1m" value="-1m"/>
+            <input type="button" class="timer-start special" value="start"/>
+            <input type="button" class="timer-record hide special" value="record"/>
+            <input type="button" class="timer-stop hide special" value="stop"/>
+            <input type="button" class="timer-reset special" value="reset"/>
+        </div>
+        <ul></ul>
+    </div>
+    <div class = "stopwatch">
+        <h1 class = "clockConcept">STOPWATCH</h1>
+        <div class = "stopwatchClock">
+            00:00
+        </div>
+        <div clsass="btnList">
+            <input type="button" class="stopwatch-start" value="start"/>
+        <input type="button" class="stopwatch-record hide" value="record"/>
+        <input type="button" class="stopwatch-stop hide" value="stop"/>
+        <input type="button" class="stopwatch-reset" value="reset"/>
+        </div>
+        <ul></ul>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
