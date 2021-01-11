@@ -16,10 +16,14 @@ body{
     margin-bottom: 20pt;
 }
 
+.timer{
+    margin-bottom: 60px;
+}
+
 .timerClock, .stopwatchClock{
     width: fit-content;
-    padding: 15px 45px;
-    margin-bottom: 20px;
+    padding: 20px 50px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
